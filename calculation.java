@@ -28,7 +28,7 @@ import java.util.Scanner;
 
             System.out.print("Do you want to run the program again? (Y/N): ");
             choice = scanner.next();
-        } while (choice.equalsIgnoreCase("Y"));
+        } while (choice.equalsIgnoreCase("Y/y"));
 
         scanner.close();
     }
